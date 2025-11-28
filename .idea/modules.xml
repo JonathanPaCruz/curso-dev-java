@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Modulo-01-Introduccion/Modulo-01-Introduccion.iml" filepath="$PROJECT_DIR$/Modulo-01-Introduccion/Modulo-01-Introduccion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modulo-02-variables-primitivas/Modulo-02-variables-primitivas.iml" filepath="$PROJECT_DIR$/Modulo-02-variables-primitivas/Modulo-02-variables-primitivas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modulo-03-constantes/Modulo-03-constantes.iml" filepath="$PROJECT_DIR$/Modulo-03-constantes/Modulo-03-constantes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modulo-04-flujos-control/Modulo-04-flujos-control.iml" filepath="$PROJECT_DIR$/Modulo-04-flujos-control/Modulo-04-flujos-control.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modulo-05-atributos-metodos/Modulo-05-atributos-metodos.iml" filepath="$PROJECT_DIR$/Modulo-05-atributos-metodos/Modulo-05-atributos-metodos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modulo-05-scanner/Modulo-05-scanner.iml" filepath="$PROJECT_DIR$/Modulo-05-scanner/Modulo-05-scanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/curso-dev-java.iml" filepath="$PROJECT_DIR$/.idea/curso-dev-java.iml" />
+    </modules>
+  </component>
+</project>
