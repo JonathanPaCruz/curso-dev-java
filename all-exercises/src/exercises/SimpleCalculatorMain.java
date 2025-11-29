@@ -13,13 +13,28 @@ import java.util.Scanner;
 public class SimpleCalculatorMain {
   public static void main(String[] args) {
     Scanner userInput = new Scanner(System.in);
-    int first = getNumber(userInput, "Ingresa el 1er número:");
-    int second = getNumber(userInput, "Ingresa el 2do número:");
+    int option;
+    boolean repeat;
+    do {
+      clearScreen();
+      int first = getNumber(userInput, "Ingresa el 1er número:");
+      int second = getNumber(userInput, "Ingresa el 2do número:");
 
-    printMessage(first, second);
-    compareNumbers(first, second);
+      printMessage(first, second);
+      compareNumbers(first, second);
 
+      System.out.println("¿Deseas ingresar más datos?\n - [1] para sí.\n - [0] para salir.");
+      option = userInput.nextInt();
+      repeat = option == 1;
+
+    } while (repeat);
     userInput.close();
+  }
+
+  public static void clearScreen() {
+    for (int i = 0; i < 50; i++) {
+      System.out.println();
+    }
   }
 
   public static int getNumber(Scanner scanner, String message) {
