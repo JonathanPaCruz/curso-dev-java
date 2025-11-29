@@ -1,11 +1,16 @@
 public class Motorcycle extends Vehicle {
   private int wheels;
-  private double hasSidecar;
+  private boolean hasSidecar;
 
-  public Motorcycle(String brand, String model, int year, double hasSidecar, int wheels) {
+  public Motorcycle(String brand, String model, int year, boolean hasSidecar, int wheels) {
     super(brand, model, year);
     this.hasSidecar = hasSidecar;
     this.wheels = wheels;
+  }
+
+  @Override
+  public void start() {
+    System.out.println("La motocicleta está encendida!");
   }
 
   public void popWheelie() {
@@ -20,11 +25,11 @@ public class Motorcycle extends Vehicle {
     this.wheels = wheels;
   }
 
-  public double getHasSidecar() {
+  public boolean getHasSidecar() {
     return hasSidecar;
   }
 
-  public void setHasSidecar(double hasSidecar) {
+  public void setHasSidecar(boolean hasSidecar) {
     this.hasSidecar = hasSidecar;
   }
 
