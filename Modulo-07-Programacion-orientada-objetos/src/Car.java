@@ -6,6 +6,19 @@ public class Car extends Vehicle {
     this.doors = doors;
   }
 
+  /*
+   *
+   * Ejemplo de polimorfismo.
+   * Se redefine el comportamiento que ya se tenía por defecto
+   *
+   * sobre escritura
+   *
+   */
+  @Override
+  public void start() {
+    System.out.println("El auto está encendido");
+  }
+
   public int getDoors() {
     return doors;
   }
