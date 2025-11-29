@@ -16,7 +16,6 @@ public class SimpleCalculatorMain {
     int option;
     boolean repeat;
     do {
-      clearScreen();
       int first = getNumber(userInput, "Ingresa el 1er número:");
       int second = getNumber(userInput, "Ingresa el 2do número:");
 
@@ -29,12 +28,6 @@ public class SimpleCalculatorMain {
 
     } while (repeat);
     userInput.close();
-  }
-
-  public static void clearScreen() {
-    for (int i = 0; i < 50; i++) {
-      System.out.println();
-    }
   }
 
   public static int getNumber(Scanner scanner, String message) {
