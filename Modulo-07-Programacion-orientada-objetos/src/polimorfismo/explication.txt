@@ -1,0 +1,8 @@
+Es un principio en la POO
+En este principio se permite que en un mismo metodo, tenga diferentes comportamientos, segun la clase que lo implemente
+implementación de determinados comportamientos, en este caso métodos, pero
+diferentes en funcion de la clase que lo implementa
+
+2 tipos
+1er en tiempo de compilacion - se llama sobrecarga
+2do en tiempo de ejecucion - es la sobre escritura
