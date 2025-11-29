@@ -12,6 +12,23 @@ public class Vehicle {
   public void start() {
     System.out.println("El vehiculo ha encendido.");
   }
+  /*
+   *
+   * Ejemplo de polimorfismo.
+   * En tiempo de compilación esta sobre escribiendo el método
+   *
+   */
+  public void start(boolean silentMode) {
+    if (silentMode) {
+      System.out.println("Encendido en modo silencio.");
+    } else {
+      System.out.println("El vehiculo ha encendido.");
+    }
+  }
+
+  public void start(int SilentMode) {
+    System.out.println("El vehiculo ha encendido.");
+  }
 
   public void stop() {
     System.out.println("El vehiculo se ha apagado.");
